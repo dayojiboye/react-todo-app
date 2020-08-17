@@ -1,0 +1,36 @@
+.items-container {
+  padding: 0.5rem;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid palevioletred;
+  padding: 0 0.5rem;
+  color: palevioletred;
+}
+
+ul li p {
+  font-size: 1.2rem;
+}
+
+ul li.done {
+  text-decoration: line-through;
+}
+
+.fa-check-circle {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.fa-trash-alt {
+  cursor: pointer;
+}

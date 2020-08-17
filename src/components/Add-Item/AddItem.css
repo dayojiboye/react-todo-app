@@ -1,0 +1,32 @@
+.input-container {
+  width: 90%;
+  margin:  2rem auto;
+  padding: 1rem 0;
+}
+
+input[type='text'] {
+  width: 400px;
+  max-width: 100%;
+  margin: 1rem auto;
+  display: block;
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.add-button {
+  display: block;
+  width: 400px;
+  max-width: 100%;
+  margin: auto;
+  padding: 1rem;
+  background: palevioletred;
+  border: 2px solid palevioletred;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-family: inherit;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
