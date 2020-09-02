@@ -14,11 +14,15 @@ const ItemsContainer = (props) => {
         <li key={item.id}>
           <p>{item.item}</p>
           <div>
-            <i className="far fa-check-circle fa-lg" onClick={props.done}></i>
-            <i
-              className="fas fa-trash-alt fa-lg"
+            <ion-icon
+              name="checkmark-circle-outline"
+              onClick={props.done}
+              class="circle-outline"
+            ></ion-icon>
+            <ion-icon
+              name="trash-outline"
               onClick={props.delete.bind(this, index)}
-            ></i>
+            ></ion-icon>
           </div>
         </li>
       );

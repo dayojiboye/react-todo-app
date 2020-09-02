@@ -26,11 +26,11 @@ ul li.done {
   text-decoration: line-through;
 }
 
-.fa-check-circle {
-  margin-right: 0.5rem;
+ion-icon {
+  font-size: 1.7rem;
   cursor: pointer;
 }
 
-.fa-trash-alt {
-  cursor: pointer;
+.circle-outline {
+  margin-right: 0.5rem;
 }
